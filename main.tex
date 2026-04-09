@@ -1,0 +1,62 @@
+\DocumentMetadata{
+  lang        = en-US,
+  testphase={phase-III,table,math,firstaid},
+  tagging-setup={math/setup={mathml-SE,mathml-AF}},
+  tagging=on,
+  pdfversion=2.0,
+  pdfstandard = ua-2,
+  pdfstandard = a-4f, %or a-4
+  uncompress,
+}
+\AddToDocumentProperties[hyperref]{pdftitle}{My other Story}
+\AddToDocumentProperties[hyperref]{pdfauthor}{Someone}
+\documentclass[12pt,twoside]{article}
+\input{tex/acc_header}
+\usepackage{unicode-math}
+
+% Other Document Information
+
+    \title{Sample Document}
+    \author{Author Name}
+    % \date{2-10-2020}
+
+% \tagpdfsetup{table/header-rows={1}}
+
+
+\begin{document}
+
+\begin{enumerate}
+    \item Give some data and have them analyze it.
+
+    \item Give them and analysis and ask them what it tells us.
+
+    \item Give them graphs and ask them to pull data from it.
+
+    \item Match data to dice rolls.
+
+    \item Were the rolls unbiased question: Given a set of rolls what it the likely hood of that many 20s?  do you think they were fudging their rolls or just got lucky and why?
+
+    \item Non-RPG Example: In repeated trials of a new test for the flu ...
+    \begin{table}[hpbt]
+        \centering
+        \tagpdfsetup{table/header-rows={1}}
+        \tagpdfsetup{table/header-columns={1}}
+        \begin{tabular}{c|c|c|c}
+             Trial & \# of Participants & \# of Positive Tests & \# Who Devloped the Flu  \tabularnewline \hline
+             1 & 100 & 73 & 69 \tabularnewline 
+             1 & 100 & 73 & 69 \tabularnewline 
+             1 & 100 & 73 & 69 \tabularnewline 
+             1 & 100 & 73 & 69 \tabularnewline 
+             1 & 100 & 73 & 69 \tabularnewline 
+             1 & 100 & 73 & 69 \tabularnewline 
+             1 & 100 & 73 & 69 \tabularnewline 
+             1 & 100 & 73 & 69 \tabularnewline 
+             1 & 100 & 73 & 69 \tabularnewline 
+             1 & 100 & 73 & 69 \tabularnewline 
+        \end{tabular}
+        \caption{Caption}
+        \label{tab:placeholder}
+    \end{table}
+\end{enumerate}
+
+\end{document}
