@@ -25,8 +25,24 @@
 
 \begin{document}
 
+\section*{Basic Calculations}
 \begin{enumerate}
-    \item Give some data and have them analyze it.
+    \item In the situation the correct answer is BLANK, use what we have learned in class to show this.
+    \item In the situation the correct answer is BLANK, use what we have learned in class to show this.
+    \item In the situation the correct answer is BLANK, use what we have learned in class to show this.
+    \item In the situation the correct answer is BLANK, use what we have learned in class to show this.
+    \item In the situation the correct answer is BLANK, use what we have learned in class to show this.
+\end{enumerate}
+
+\section*{Longer Wordy Problems}
+\begin{enumerate}
+    \item Use the following values for this question: 
+        \[Values = \{11,6,5,10,9,9,2,5,12,8\}.\]
+    \begin{enumerate}
+        \item Find the five number summary for this data set, show your work.
+        \item Find the mean and standard deviation for this data set, show your work.
+        \item This data is the result of rolling either \(1d12\), \(2d6\), \(3d4\), or \(1d8+1d4\).  Based on the data and your work above what combination of dice were rolled and how do you know?
+    \end{enumerate}
 
     \item Give them and analysis and ask them what it tells us.
 
@@ -36,15 +52,25 @@
 
     \item Were the rolls unbiased question: Given a set of rolls what it the likely hood of that many 20s?  do you think they were fudging their rolls or just got lucky and why?
 
-    \item Non-RPG Example: In repeated trials of a new test for the flu ...
+\clearpage
+
+    \item (Transferable Skills Question) A pharmaceutical company has created a new flu test and claims that it tests for the flu with 90\% accuracy, i.e. if a patient tests positive then there is a 90\% chance they actually develop the flu.  In table \ref{tab:flu_test} we see the results of 10 random trials.  For each trial you are given the total number of participants, the number of participants who tested positive for flu, the number that actually developed the flu (true positives), and the percentage of correct diagnoses.  Use this table and your knowledge of \emph{binomial distributions} to answer the following questions.
     \begin{table}[hpbt]
         \centering
         \tagpdfsetup{table/header-rows={1}}
         \tagpdfsetup{table/header-columns={1}}
         \input{input_files/trial_table}
-        \caption{Caption}
-        \label{tab:placeholder}
+        \caption{Flue Test Trial Results}
+        \label{tab:flu_test}
     \end{table}
+    \begin{enumerate}
+        \item If the company was correct and the test is 90\% accurate, then what is the \emph{probability} that 60 people will develop the flu out of 80 who test positive, i.e. 60 out of 80 true positives?
+        \item If the company was correct and the test is 90\% accurate, then what is the \emph{probability} that 50 people will develop the flu out of 70 who test positive, i.e. 50 out of 70 true positives?
+        \item If the company was correct and the test is 90\% accurate and 80 people test positive, what is the \emph{expected value} for the number of true positives?
+        \item If the company was correct and the test is 90\% accurate and 80 people test positive, what is the \emph{standard deviation} for the number of true positives?
+        \item If the company was correct and the test is 90\% accurate and 80 people test positive, then what range of true positives would we expect to get 95\% of the time?
+        \item Looking carefully at table \ref{tab:flu_test}, do you believe the company's claim about the accuracy of the test?  The correctness of this answer is based on the strength of you argument and your use of the data you have from the table and the above questions.
+    \end{enumerate}
 \end{enumerate}
 
 \end{document}
